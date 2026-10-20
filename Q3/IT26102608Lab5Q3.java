@@ -33,7 +33,7 @@ public class IT26102608Lab5Q3{
 		if (noOfDays < 3){
 			appliedDiscount = 0;
 		}
-		else if (noOfDays >= 3){
+		else if (noOfDays >= 3 && noOfDays <= 4){
 			appliedDiscount = discount1;
 		}
 		else if (noOfDays > 4){
